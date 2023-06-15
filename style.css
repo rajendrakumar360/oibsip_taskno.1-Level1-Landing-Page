@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text: 1.5rem;
+    --head: calc(1rem + 3vw)
+   
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-section {
+    min-height: 100vh;
+    background: url(./nature.photo.png);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0rem 1.5rem;
+    color: black;
+}
+
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-left: 3rem;
+    font-size: var(--text);
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid transparent;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li a:hover {
+    border-bottom: 2px solid white;
+}
+
+.hero-text{
+    color: black;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero-text a {
+    color: yellow;
+    background: green;
+}
+
+.hero-text h2{
+    font-size: var(--head);
+}
+
+.hero-text p{
+    font-size: var(--text);
+}
